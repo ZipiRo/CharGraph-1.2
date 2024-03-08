@@ -42,7 +42,7 @@ With CharGraph++, you can effortlessly create captivating shapes, render text, a
 
 3. Develop educational programs that utilize graphical elements to enhance the learning experience.
 
-[Back To The Top](#CharGraph++)
+[Back To The Top](#chargraph)
 
 ---
 
@@ -91,7 +91,7 @@ g++ code dir\CharGraph++.a -o name
   }
   ```
   
-[Back To The Top](#CharGraph++)
+[Back To The Top](#chargraph)
 
 ---
 
@@ -123,7 +123,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>
 
-[Back To The Top](#CharGraph++)
+[Back To The Top](#chargraph)
 
 ---
 
@@ -133,4 +133,4 @@ For more information, please refer to <https://unlicense.org>
 - YouTube - [ZipiRo](https://youtube.com/@zipiro8942?si=gEqfBdBMRNxJvyBs)
 - Website - [CtrlSky](https://ctrlsky.org/)
 
-[Back To The Top](#CharGraph++)
+[Back To The Top](#chargraph)
