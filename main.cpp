@@ -1,4 +1,4 @@
-#include "source\c_engine.h"
+#include "source\CharGraph++.h"
 
 Scene scene(100, 30, ' ');
 Input input;
@@ -40,7 +40,7 @@ int main() {
 	Point p(63, 22, '#');
 	p.draw(scene);
 
-	char string[100] = "This is a test for the /charachter engine/";
+	char string[100] = "This is a test for the /Dynamic Character Graphics Engine for C++/";
 	Text text(1, 24, string);
 	text.draw(scene);
 

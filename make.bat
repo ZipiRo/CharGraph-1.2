@@ -1,7 +1,7 @@
 @echo off
 set "dir=source"
 set "code=main.cpp"
-set "name=c_engine"
+set "name=CharGraph++"
 
-g++ %code% %dir%\c_engine.a -o %name%
+g++ %code% %dir%\CharGraph++.a -o %name%
 start cmd /k .\%name%
