@@ -55,7 +55,7 @@ With CharGraph++, you can effortlessly create captivating shapes, render text, a
  git clone https://github.com/yourusername/c_engine.git
  ```
 
-#### Compile:
+#### Compiling
 
 To compile there is a make.bat or you can use this following command:
 
