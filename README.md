@@ -2,12 +2,14 @@
 Dynamic Character Graphics Engine for C++
 
 ---
+
 ### Table of Contents
+
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [References](#references)
 - [License](#license)
 - [Author Info](#author-info)
+  
 ---
 
 ## Description
@@ -34,11 +36,13 @@ With CharGraph++, you can effortlessly create captivating shapes, render text, a
 
 #### Usage Examples
 
-Build classic games like Pong, Snake, or Tetris with the library's shape-drawing capabilities and keyboard input support.
-Create dynamic menus and user interfaces for console-based applications.
-Develop educational programs that utilize graphical elements to enhance the learning experience.
+1. Build classic games like Pong, Snake, or Tetris with the library's shape-drawing capabilities and keyboard input support.
 
-[Back To The Top](#read-me-template)
+2. Create dynamic menus and user interfaces for console-based applications.
+
+3. Develop educational programs that utilize graphical elements to enhance the learning experience.
+
+[Back To The Top](#chargraph)
 
 ---
 
@@ -46,12 +50,25 @@ Develop educational programs that utilize graphical elements to enhance the lear
 
 #### Installation
 
-1. Clone the Repository:
+ Open a terminal and clone the CharGraph++ repository from GitHub using the following command:
+ ```bash
+ git clone https://github.com/yourusername/c_engine.git
+ ```
 
-   Open a terminal and clone the CharGraph++ repository from GitHub using the following command:
-   ```bash
-   git clone https://github.com/yourusername/c_engine.git
-   ```
+#### Compile:
+
+To compile there is a make.bat or you can use this following command:
+
+```bash
+g++ code dir\CharGraph++.a -o name
+```
+
+>dir - the path to the directory where the source code is (headers and library)
+
+>code - the code you want to compile
+
+>name - the final name of the program
+
 #### API Reference
 
   The CharGraph++ will have an API in the future, until then this is a basic runtime:
@@ -74,7 +91,7 @@ Develop educational programs that utilize graphical elements to enhance the lear
   }
   ```
   
-[Back To The Top](#read-me-template)
+[Back To The Top](#chargraph)
 
 ---
 
@@ -106,7 +123,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#chargraph)
 
 ---
 
@@ -116,4 +133,4 @@ For more information, please refer to <https://unlicense.org>
 - YouTube - [ZipiRo](https://youtube.com/@zipiro8942?si=gEqfBdBMRNxJvyBs)
 - Website - [CtrlSky](https://ctrlsky.org/)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#chargraph)
