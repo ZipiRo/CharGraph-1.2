@@ -2,12 +2,15 @@
 Dynamic Character Graphics Engine for C++
 
 ---
+
 ### Table of Contents
+
 - [Description](#description)
 - [How To Use](#how-to-use)
 - [References](#references)
 - [License](#license)
 - [Author Info](#author-info)
+  
 ---
 
 ## Description
