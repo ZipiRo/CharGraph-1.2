@@ -36,11 +36,11 @@ With CharGraph++, you can effortlessly create captivating shapes, render text, a
 
 #### Usage Examples
 
-1. Build classic games like Pong, Snake, or Tetris with the library's shape-drawing capabilities and keyboard input support.
+Build classic games like Pong, Snake, or Tetris with the library's shape-drawing capabilities and keyboard input support.
 
-2. Create dynamic menus and user interfaces for console-based applications.
+Create dynamic menus and user interfaces for console-based applications.
 
-3. Develop educational programs that utilize graphical elements to enhance the learning experience.
+Develop educational programs that utilize graphical elements to enhance the learning experience.
 
 [Back To The Top](#chargraph)
 
