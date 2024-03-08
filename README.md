@@ -71,6 +71,8 @@ g++ code dir\CharGraph++.a -o name
 
 #### API Reference
 
+  The template.cpp is a good start, to test if it's working
+
   The CharGraph++ will have an API in the future, until then this is a basic runtime:
 
   ```cpp
