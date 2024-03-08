@@ -59,15 +59,15 @@ With CharGraph++, you can effortlessly create captivating shapes, render text, a
 
 To compile there is a make.bat or you can use this following command:
 
-"dir" - the directory where the source code is (headers and library)
-
-"code" - the code you want to compile
-
-"name" - the final name of the program
-
 ```bash
-g++ %code% %dir%\CharGraph++.a -o %name%
+g++ code dir\CharGraph++.a -o name
 ```
+
+>dir - the path to the directory where the source code is (headers and library)
+
+>code - the code you want to compile
+
+>name - the final name of the program
 
 #### API Reference
 
