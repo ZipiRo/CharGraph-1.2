@@ -52,7 +52,7 @@ int main() {
 	bool running = true;
 	while (running){
 		input.event();
-		if (input.keyPressed(27))
+		if (input.keyPressed(ESCAPE))
 			running = false;
 	}
 
