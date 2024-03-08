@@ -1,8 +1,7 @@
 #define WIDTH 200
 #define HEIGHT 100
 
-class Scene
-{
+class Scene{
 public:
 	char canvas[HEIGHT][WIDTH];
 	char cchar;

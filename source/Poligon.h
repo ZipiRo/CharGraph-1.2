@@ -1,5 +1,4 @@
-class Poligon
-{
+class Poligon{
 public:
 	Poligon(int x[100], int y[100], int sides, char cchar);
 

@@ -1,5 +1,4 @@
-class Text
-{
+class Text{
 public:
 	Text(int x, int y, int number);
 	Text(int x, int y, char* text);

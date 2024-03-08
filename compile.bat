@@ -1,6 +1,6 @@
 @echo off
-set "dir=source" :: The path where your source code is
-set "toCompile=c_engine.cpp" :: The code you want to compile
-set "buildName=c_engine" :: The final name of the program
+set "dir=source"
+set "code=c_engine.cpp"
+set "name=c_engine"
 
-g++ %toCompile% %dir%\c_engine.a -o %buildName%
+g++ %code% %dir%\c_engine.a -o %name%

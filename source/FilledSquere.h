@@ -1,5 +1,4 @@
-class FilledSquere
-{
+class FilledSquere{
 public:
 	FilledSquere(int x, int y, int length, char cchar, char fchar);
 

@@ -1,5 +1,4 @@
-class Point
-{
+class Point{
 public:
 	Point(int x, int y, char cchar);
 

@@ -1,5 +1,4 @@
-class Squere
-{
+class Squere{
 public:
 	Squere(int x, int y, int length, char cchar);
 

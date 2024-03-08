@@ -1,5 +1,4 @@
-class FilledRectangle
-{
+class FilledRectangle{
 public:
 	FilledRectangle(int x, int y, int width, int height, char cchar, char fchar);
 

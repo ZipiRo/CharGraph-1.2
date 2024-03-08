@@ -1,5 +1,4 @@
-class Elipse
-{
+class Elipse{
 public:
 	Elipse(int x, int y, int width, int height, char cchar);
 
