@@ -4,4 +4,4 @@ set "code=template.cpp" :: the code you want to compile
 set "name=build" :: the final name of the program
 
 g++ %code% %dir%\CharGraph++.a -o %name%
-start cmd /k .\%name%
+.\%name%
