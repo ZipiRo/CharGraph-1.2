@@ -1,59 +1,58 @@
 #include "source\c_engine.h"
-#include <iostream>
 
-Scene s(100, 30, ' ');
-Input i;
+Scene scene(100, 30, ' ');
+Input input;
 
 int main() {
 	Rectangle rW(1, 1, 10, 5, '#');
-	rW.draw(s);
+	rW.draw(scene);
 
 	Rectangle rH(22, 1, 5, 10, '#');
-	rH.draw(s);
+	rH.draw(scene);
 	
 	Squere squere(33, 1, 10, '#');
-	squere.draw(s);
+	squere.draw(scene);
 
 	Elipse circle(63, 6, 5, 5, '#');
-	circle.draw(s);
+	circle.draw(scene);
 
 	int x[4] = {74, 84, 94, 85};
 	int y[4] = {6, 1, 6, 10};
 
 	Poligon poligon(x, y, 4, '#');
-	poligon.draw(s);
+	poligon.draw(scene);
 
 	FilledRectangle frW(1, 11, 10, 5, '#', ':');
-	frW.draw(s);
+	frW.draw(scene);
 
 	FilledRectangle frH(22, 11, 5, 10, '#', ':');
-	frH.draw(s);
+	frH.draw(scene);
 
 	FilledSquere fs(33, 11, 10, '#', ':');
-	fs.draw(s);
+	fs.draw(scene);
 
 	FilledElipse fe(63, 16, 5, 5, '#', ':');
-	fe.draw(s);
+	fe.draw(scene);
 
 	Line l(1, 22, 60, 22, '#');
-	l.draw(s);
+	l.draw(scene);
 
 	Point p(63, 22, '#');
-	p.draw(s);
+	p.draw(scene);
 
-	char string[100] = "This is a test for the /console charachter graphics engine/";
-	Text t(1, 24, string);
-	t.draw(s);
+	char string[100] = "This is a test for the /charachter engine/";
+	Text text(1, 24, string);
+	text.draw(scene);
 
-	Text tn(1, 25, 100);
-	tn.draw(s);
+	Text textnumber(1, 25, 100);
+	textnumber.draw(scene);
 
-	s.paint();
+	scene.paint();
 	
 	bool running = true;
 	while (running){
-		i.event();
-		if (i.keyPressed(27))
+		input.event();
+		if (input.keyPressed(27))
 			running = false;
 	}
 
