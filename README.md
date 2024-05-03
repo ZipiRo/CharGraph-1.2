@@ -133,6 +133,8 @@ For more information, please refer to <https://unlicense.org>
 
 ## Author Info
 
+"If you fell it's not good enough, than it's good enough!" - ME
+
 - Twitch - [ZipiR0](https://www.twitch.tv/zipir0)
 - YouTube - [ZipiRo](https://youtube.com/@zipiro8942?si=gEqfBdBMRNxJvyBs)
 - Website - [CtrlSky](https://ctrlsky.org/)
