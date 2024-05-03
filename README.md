@@ -59,6 +59,7 @@ Develop educational programs that utilize graphical elements to enhance the lear
 
 #### Compiling
 
+You will need to a cpp compiler 
 To compile there is a make.bat or you can use this following command:
 
 ```bash
