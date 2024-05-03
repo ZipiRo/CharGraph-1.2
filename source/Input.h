@@ -16,6 +16,7 @@ public:
     Input();
 
     void event();
+    bool anykey();
     bool keyPressed(int code);
     int get_curentkey();
 private:
