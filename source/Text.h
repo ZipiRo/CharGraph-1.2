@@ -1,5 +1,7 @@
 class Text{
 public:
+	Transform transform;
+
 	Text(int x, int y, int number);
 	Text(int x, int y, char* text);
 	
@@ -7,8 +9,6 @@ public:
 	void set(char* text);
 	void set(int number);
 private:
-	int x;
-	int y;
 	int length;
 	char* text;
 };

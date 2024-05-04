@@ -1,5 +1,6 @@
 #pragma once
 #include "Scene.h"
+#include "Transform.h"
 #include "Point.h"
 #include "Line.h"
 #include "Squere.h"
@@ -11,3 +12,4 @@
 #include "FilledSquere.h"
 #include "Poligon.h"
 #include "Input.h"
+#include "String.h"
