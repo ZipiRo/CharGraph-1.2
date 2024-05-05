@@ -1,15 +1,10 @@
-struct Position
-{
-    int x;
-    int y;
-};
-
-
 class Transform
 {
 public:
-    Position position;
+    Vector2D position;
+    Vector2D scale;
 
     Transform();
-    Transform(int x, int y);
+    Transform(int x, int y, int width, int height);
+    Transform(Vector2D position, Vector2D scale);
 };

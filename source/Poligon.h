@@ -1,11 +1,13 @@
 class Poligon{
 public:
-	Poligon(int x[100], int y[100], int sides, char cchar);
+	Transform transform;
+	char cchar;
+	
+	Poligon();
+	Poligon(Vector2D points[], int sides, char cchar);
 
 	void draw(Scene &scene);
 private:
-	int* x;
-	int* y;
+	Vector2D points[1000];
 	int sides;
-	char cchar;
 };

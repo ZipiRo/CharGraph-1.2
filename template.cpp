@@ -16,12 +16,6 @@ int main() {
 	Elipse circle(63, 6, 5, 5, '#');
 	circle.draw(scene);
 
-	int x[4] = {74, 84, 94, 85};
-	int y[4] = {6, 1, 6, 10};
-
-	Poligon poligon(x, y, 4, '#');
-	poligon.draw(scene);
-
 	FilledRectangle frW(1, 11, 10, 5, '#', ':');
 	frW.draw(scene);
 
