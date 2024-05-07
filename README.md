@@ -59,18 +59,8 @@ Develop educational programs that utilize graphical elements to enhance the lear
 
 #### Compiling
 
-You will need to a cpp compiler 
-To compile there is a make.bat or you can use this following command:
-
-```bash
-g++ code dir\CharGraph++.a -o name
-```
-
->dir - the path to the directory where the source code is (headers and library)
-
->code - the code you want to compile
-
->name - the final name of the program
+You will need to have a gcc ore g++ compiler
+To compile there is a Build.bat batch file
 
 #### API Reference
 
