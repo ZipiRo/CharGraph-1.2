@@ -29,7 +29,6 @@ if %ERRORLEVEL% neq 0 (
     echo Compilation failed
 ) else (
     echo Compilation successful
-    .\%OUTPUT_FILE%
 )
 
 rem Pause to view output (optional, remove if not needed)
