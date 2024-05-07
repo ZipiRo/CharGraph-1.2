@@ -16,6 +16,16 @@ int main() {
 	Elipse circle(63, 6, 5, 5, '#');
 	circle.draw(scene);
 
+	Vector2D points[] = {
+		Vector2D(74, 6),
+		Vector2D(83, 1),
+		Vector2D(90, 6),
+		Vector2D(83, 10)
+	};
+
+	Poligon po(points, 4, '#');
+	po.draw(scene);
+
 	FilledRectangle frW(1, 11, 10, 5, '#', ':');
 	frW.draw(scene);
 
