@@ -11,4 +11,13 @@ public:
     
     Vector2D();
     Vector2D(int x, int y);
+
+    Vector2D operator + (Vector2D b) const;
+    Vector2D operator += (Vector2D b);
+    Vector2D operator - (Vector2D b) const;
+    Vector2D operator -= (Vector2D b);
+    Vector2D operator * (int scalar) const;
+    Vector2D operator / (int scalar) const;
+
+    bool operator == (Vector2D b) const;
 };
