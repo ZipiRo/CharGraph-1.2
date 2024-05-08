@@ -4,6 +4,7 @@ public:
 	char cchar;
 	
 	Poligon();
+	Poligon(int x[], int y[], int sides, int cchar);
 	Poligon(Vector2D points[], int sides, char cchar);
 
 	void draw(Scene &scene);

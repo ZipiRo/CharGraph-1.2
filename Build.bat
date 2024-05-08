@@ -27,9 +27,7 @@ rem Compile the source file with the library
 rem Check if compilation was successful
 if %ERRORLEVEL% neq 0 (
     echo Compilation failed
+    pause
 ) else (
     echo Compilation successful
 )
-
-rem Pause to view output (optional, remove if not needed)
-pause

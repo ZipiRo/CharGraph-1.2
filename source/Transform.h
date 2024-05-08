@@ -1,5 +1,4 @@
-class Transform
-{
+class Transform{
 public:
     Vector2D position;
     Vector2D scale;
