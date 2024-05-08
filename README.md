@@ -29,7 +29,7 @@ With CharGraph++, you can effortlessly create captivating shapes, render text, a
    Design interactive games that respond to user commands, creating a more engaging and immersive experience for your audience.
 
 4. User-Friendly API: CharGraph++ boasts an easy-to-use API, allowing developers to quickly grasp and implement its functionalities.
-   The library is well-documented, providing clear guidelines for both beginners and experienced programmers.
+   The library is well-documented, providing clear guidelines for both beginners and experienced programmers. (ComingSoon)
 
 5. Versatility: From crafting ASCII art to developing lightweight games, CharGraph++ is a versatile tool that adapts to various creative projects.
    Experiment with different ideas and watch as your concepts come to life on the console canvas.
@@ -54,7 +54,7 @@ Develop educational programs that utilize graphical elements to enhance the lear
 
  Open a terminal and clone the CharGraph++ repository from GitHub using the following command:
  ```bash
- git clone https://github.com/yourusername/c_engine.git
+ git clone https://github.com/yourusername/CharGraph++.git
  ```
 
 #### Compiling
