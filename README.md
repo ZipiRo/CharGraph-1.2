@@ -1,4 +1,4 @@
-# CharGraph++
+# CharGraph++ v1.3
 Dynamic Character Graphics Engine for C++
 
 ---
@@ -14,7 +14,7 @@ Dynamic Character Graphics Engine for C++
 
 ## Description
 
-Embark on a creative journey into the realm of character-based graphics with CharGraph++, a powerful C++ library designed to bring your imagination to life on the console screen. 
+Embark on a creative journey into the realm of character-based graphics with CharGraph++, a C++ library designed to bring your imagination to life on the console screen. 
 With CharGraph++, you can effortlessly create captivating shapes, render text, and develop interactive applications, including simple games.
 
 #### Key Features
