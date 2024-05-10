@@ -1,13 +1,10 @@
-class Poligon{
+class Poligon : public Shape{
 public:
-	Transform transform;
-	char cchar;
-	
 	Poligon();
-	Poligon(int x[], int y[], int sides, int cchar);
-	Poligon(Vector2D points[], int sides, char cchar);
+	Poligon(Vector2D[], int);
+	Poligon(Vector2D[], int, char);
 
-	void draw(Scene &scene);
+	void draw(Scene&) override;
 private:
 	Vector2D points[1000];
 	int sides;

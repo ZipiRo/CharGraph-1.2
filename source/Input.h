@@ -1,15 +1,17 @@
-#define ESCAPE 27
-#define UP 72
-#define DOWN 80
-#define RIGHT 77
-#define LEFT 75
-#define ENTER 13
-#define SHIFT 16
-#define CTRL 17
-#define TAB 9
-#define CAPSLOCK 20
-#define SPACE 32
-#define DELETE 46
+namespace Key{
+    const int ESCAPE = 27;
+    const int ARROW_UP = 72;
+    const int ARROW_DOWN = 80;
+    const int ARROW_RIGHT = 77;
+    const int ARROW_LEFT = 75;
+    const int ENTER = 13;
+    const int SHIFT = 16;
+    const int CTRL = 17;
+    const int TAB = 9;
+    const int CAPSLOCK = 20;
+    const int SPACE = 32;
+    const int DELETE = 46;
+}
 
 class Input{
 public:
@@ -17,7 +19,7 @@ public:
 
     void event();
     bool anykey();
-    bool keyPressed(int code);
+    bool keyPressed(int);
     int get_curentkey();
 private:
     int curentKey;

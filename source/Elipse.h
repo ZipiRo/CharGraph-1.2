@@ -1,12 +1,8 @@
-class Elipse{
+class Elipse : public Shape{
 public:
-	Transform transform;
-	char cchar;
-
 	Elipse();
-	Elipse(int x, int y, int width, int height, char cchar);
-	Elipse(Vector2D position, Vector2D scale, char cchar);
+	Elipse(Vector2D, Vector2D);
+	Elipse(Vector2D, Vector2D, char);
 
-	void draw(Scene& scene);
-private:
+	void draw(Scene&) override;
 };

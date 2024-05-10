@@ -5,8 +5,7 @@ public:
 	char cchar;
 
 	Line();
-	Line(Vector2D origin, Vector2D range, char cchar);
-	Line(int x, int y, int fx, int fy, char cchar);
+	Line(Vector2D, Vector2D, char);
 
-	void draw(Scene& scene);
+	void draw(Scene&);
 };

@@ -1,11 +1,10 @@
 class Point{
 public:
-	Transform transform;
+	Vector2D position;
 	char cchar;
 
 	Point();
-	Point(int x, int y, char cchar);
-	Point(Vector2D position, char cchar);
+	Point(Vector2D, char);
 
-	void draw(Scene &scene);
+	void draw(Scene&);
 };

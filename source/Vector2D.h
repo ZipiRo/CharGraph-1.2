@@ -6,18 +6,22 @@
 
 class Vector2D{
 public:
-    int x;
-    int y;
+    float x;
+    float y;
     
     Vector2D();
-    Vector2D(int x, int y);
+    Vector2D(float, float);
 
-    Vector2D operator + (Vector2D b) const;
-    Vector2D operator += (Vector2D b);
-    Vector2D operator - (Vector2D b) const;
-    Vector2D operator -= (Vector2D b);
-    Vector2D operator * (int scalar) const;
-    Vector2D operator / (int scalar) const;
-
-    bool operator == (Vector2D b) const;
+    Vector2D operator= (Vector2D);
+    Vector2D operator + (Vector2D) const;
+    Vector2D operator += (Vector2D);
+    Vector2D operator - (Vector2D) const;
+    Vector2D operator -= (Vector2D);
+    Vector2D operator * (float) const;
+    Vector2D operator / (float) const;
+    bool operator == (Vector2D) const;
 };
+
+Vector2D multiply (Vector2D, Vector2D);
+Vector2D divide (Vector2D, Vector2D);
+Vector2D floorf(Vector2D);

@@ -1,11 +1,8 @@
-class Rectangle{
+class Rectangle : public Shape{
 public:
-	Transform transform;
-	char cchar;
-
 	Rectangle();
-	Rectangle(int x, int y, int width, int height, char cchar);
-	Rectangle(Vector2D position, Vector2D scale, char cchar);
+	Rectangle(Vector2D, Vector2D);
+	Rectangle(Vector2D, Vector2D, char);
 
-	void draw(Scene &scene);
+	void draw(Scene&) override;
 };

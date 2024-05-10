@@ -1,16 +1,16 @@
 class Text{
 public:
-	Transform transform;
+	Vector2D position;
 
 	Text();
-	Text(int x, int y, int number);
-	Text(Vector2D position, int number);
-	Text(int x, int y, char* text);
-	Text(Vector2D position, char* text);
+	Text(int, int, int);
+	Text(Vector2D, int);
+	Text(int, int, char*);
+	Text(Vector2D, char*);
 	
-	void draw(Scene& scene);
-	void set(char* text);
-	void set(int number);
+	void draw(Scene&);
+	void set(char*);
+	void set(int);
 private:
 	int length;
 	char* text;
