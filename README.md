@@ -54,7 +54,7 @@ Develop educational programs that utilize graphical elements to enhance the lear
 
  Open a terminal and clone the CharGraph++ repository from GitHub using the following command:
  ```bash
- git clone https://github.com/yourusername/CharGraph++.git
+ git clone https://github.com/ZipiRo/CharGraph++.git
  ```
 
 #### Compiling
